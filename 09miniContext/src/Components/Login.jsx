@@ -13,7 +13,7 @@ function Login() {
     }
   return (
     <div>
-        <h2>Lofin</h2>
+        <h2>Login</h2>
         <input type="text"
          placeholder='username'
          value={username}
@@ -21,7 +21,7 @@ function Login() {
          onChange={(e)=> setUsername(e.target.value)}
         />
         {" "}
-        <input type="text" 
+        <input type="password" 
         placeholder='password'
         value={password}
         onChange={(e)=> setPassword(e.target.value)}
